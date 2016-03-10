@@ -145,6 +145,31 @@ $(function(){$("input, textarea").placeholder()});(function(e,t,n){function r(e)
 	}
 }());
 
+// Formulario mostrador
+/*(function()
+{
+	$(document).on("ready", formulario_producto);
+	function formulario_producto()
+	{
+		$("#check").on("click", abridor);
+		function abridor(ev)
+		{
+			ev.preventDefault();
+			$(".formulario--producto").css({ display : "block" });
+			$("#check").off("click", abridor);
+			$("#check").on("click", cerrador);
+			function cerrador(ev)
+			{
+				ev.preventDefault();
+				$(".formulario--producto").css({ display : "none" });
+				$("#check").off("click", cerrador);
+				$("#check").on("click", abridor);
+			}
+		}
+	}
+}());*/
+
+
 $(document).ready(function()
 {
 	// Soporte para IE8 de :even y :odd
