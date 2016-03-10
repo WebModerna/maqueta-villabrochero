@@ -1,0 +1,104 @@
+// Portfolio en la Home
+.home--section
+	overflow hidden
+	padding-left 10px
+	&--article
+		display inline-block
+		position relative
+		vertical-align top
+	&--img
+		position relative
+		img
+			width 100%
+
+	&--lista
+		left 0
+		overflow hidden
+		position absolute
+		height 100%
+		top 0
+		width 100%
+		ul
+			background rgba($blanco_puro, 0.8)
+			bottom -20em
+			left 0
+			margin 0
+			padding 0.5em
+			position absolute
+			list-style none
+			transition_comun()
+			width 100%
+			li
+				h4
+					margin 0
+		&:hover
+			ul
+				bottom 0
+.home--banners
+	overflow hidden
+	&--slide
+		font-family $baseHeadingFont
+		figure
+			position relative
+			text-align center
+			width 100%
+			figcaption
+				background url("../img/transparent_1x1.png")
+				background rgba($verde_oscuro, 0.8)
+				font-weight bold
+				margin 0 auto
+				padding 1.5em 1em
+				position absolute
+				text-transform uppercase
+				top 0
+				a
+					color $blanco
+					text-decoration none
+					z-index 950
+					&:hover
+						text-decoration underline
+			img
+				width 100%
+
+			.slide--descripcion
+				background url("../img/fancybox_overlay.png")
+				background rgba($negro_puro, 0.6)
+				color $blanco
+				display inline
+				left 10%
+				position absolute
+				padding 0.2em 1em
+				top 50%
+
+.desktop
+	display none
+
+@media all and (max-width:480px)
+	.home--banners
+		&--slide
+			figure
+				figcaption
+					font-size 0.6em
+					padding 0.8em
+				.slide--descripcion
+					display none
+
+@media all and (min-width:720px)
+	.home--banners
+		&--slide
+			figure
+				figcaption
+					left 10%
+					top 10%
+
+@media all and (min-width:980px)
+	.home--section
+		border 1px solid $verde_claro
+		border-radius 3px
+		margin auto 0.5em 0.5em 0.5em
+		&--article
+			border 1px solid $verde_claro
+	.desktop
+		display block
+	.movil
+		display none

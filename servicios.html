@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.5, user-scalable=yes" />
+	<meta name="description" content="Coaching empresarial" />
+	<title>Servicios | Inmobiliaria Villa Brochero</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/style.min.css" />
+
+	<!--[if IE 9]>
+		<script type="text/javascript" src="js/html5-3.6-respond-1.4.2.min.js"></script>
+		<link rel="stylesheet" href="css/styleIE9.css" />
+	<![endif]-->
+
+	<!--[if IE 8]>
+		<script type="text/javascript" src="js/html5-3.6-respond-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+		<link rel="stylesheet" href="css/styleIE8.css" />
+	<![endif]-->
+
+	<!--[if gte IE 9]><style type="text/css">.gradient { filter: none !important; }</style><![endif]-->
+</head>
+<body class="">
+<!--[if lt IE 8]>
+	<p class="browserupgrade">Estás usando un <strong>navegador viejo</strong>. Por favor <a target="_blank" href="http://browsehappy.com/">actualizá tu navegador</a> para mejorar tu experiencia en la web.</p>
+	<hr />
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="wrapper">
+	<header class="header">
+		<div class="logotipo gradient">
+			<h2 class="logotipo--header">
+				<a href="index.html">
+					<img src="img/logo_small2.png" alt="Inmobiliaria Villabrochero" >
+				</a>
+				<span>Inmobiliaria Villa Brochero</span>
+			</h2>
+		</div>
+
+		<div class="boton_menu">
+			<div class="menu_barritas">
+				<a href="#" id="menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+
+		<nav class="navegacion">
+			<ul id="header_nav" class="navegacion--listado navegacion--listado-cerrar">
+				<li class="gradient"><a href="categoria.html">Alquileres Temporales</a></li>
+				<li class="gradient"><a href="categoria.html">Lotes y Terrenos</a></li>
+				<li class="gradient"><a href="categoria.html">Campos y Chacras</a></li>
+				<li class="gradient"><a href="categoria.html">Casas y Departamentos</a></li>
+				<li class="gradient"><a href="categoria.html">Negocios con Renta y Otros</a></li>
+				<li class="gradient"><a href="categoria.html">Diversos</a></li>
+			</ul>
+			<ul class="second_nav navegacion--listado navegacion--listado-cerrar">
+				<li class="gradient"><a href="empresa.html">Empresa</a></li>
+				<li class="current_menu_item current_page_item gradient"><a href="servicios.html">Servicios</a></li>
+				<li class="gradient"><a href="ubicacion.html">Ubicación</a></li>
+				<li class="gradient"><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="sidebar--main">
+		<aside class="sidebar">
+			<section class="navegacion-secundaria">
+				<nav>
+					<button id="chusma" class="boton-rojo">
+						Buscar Propiedades <span class="icono-search icono-left"></span>
+					</button>
+					<ul class="second_nav">
+						<li class="gradient"><a href="empresa.html">Empresa</a></li>
+						<li class="current_menu_item current_page_item gradient"><a href="servicios.html">Servicios</a></li>
+						<li class="gradient"><a href="ubicacion.html">Ubicación</a></li>
+						<li class="gradient"><a href="contacto.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</section>
+			<section class="sidebar--section formulario--propiedades">
+				<header class="sidebar--section-header">
+					<h3>Buscador</h3>
+				</header>
+				<div class="formulario--propiedades-form">
+					<form action="">
+						<label for="operacion">Operación:</label>
+						<select name="operacion" class="select" id="operacion">
+							<option value="" selected="selected">Seleccionar</option>
+							<option value="1">Compra</option>
+							<option value="3">Alquiler</option>
+						</select>
+
+						<label for="tipo">Propiedad:</label>
+						<select name="tipo" id="tipo">
+							<option value="" selected="selected">Seleccionar</option>
+							<option value="1">Alquileres Temporales</option>
+							<option value="2">Lotes y Terrenos</option>
+							<option value="3">Campos y Chacras</option>
+							<option value="4">Casas y departamentos</option>
+							<option value="5">Negocios con Renta y Otros</option>
+							<option value="6">Diversos</option>
+						</select>
+
+						<label for="localidad">Zona:</label>
+						<select name="localidad" id="localidad">
+							<option value="" selected="selected">Seleccionar</option>
+							<option value="Traslasierra">Traslasierra</option>
+							<option value="Otros">Otros</option>
+							<option value="Villa Cura  Brochero">Villa Cura  Brochero</option>
+							<option value="Mina Clavero">Mina Clavero</option>
+						</select>
+
+						<label for="preci">Precio:</label>
+						<select name="preci" id="preci">
+							<option value="" selected="selected">Seleccionar</option>
+							<option value="300">Menos de $ 300</option>
+							<option value="400">Hasta $ 400</option>
+							<option value="500">Hasta $ 500</option>
+							<option value="600">Hasta $ 600</option>
+							<option value="700">Hasta $ 700</option>
+							<option value="800">Hasta $ 800</option>
+							<option value="900">Hasta $ 900</option>
+							<option value="1000">Hasta $ 1.000</option>
+							<option value="2000">Hasta $ 2.000</option>
+							<option value="3000">Hasta $ 3.000</option>
+							<option value="4000">Hasta $ 4.000</option>
+							<option value="5000">Hasta $ 5.000</option>
+							<option value="6000">Hasta $ 6.000</option>
+							<option value="7000">Hasta $ 7.000</option>
+							<option value="8000">Hasta $ 8.000</option>
+							<option value="9000">Hasta $ 9.000</option>
+							<option value="10000">Hasta $ 10.000</option>
+							<option value="20000">Hasta $ 20.000</option>
+							<option value="30000">Hasta $ 30.000</option>
+							<option value="40000">Hasta $ 40.000</option>
+							<option value="50000">Hasta $ 50.000</option>
+							<option value="60000">Hasta $ 60.000</option>
+							<option value="70000">Hasta $ 70.000</option>
+							<option value="80000">Hasta $ 80.000</option>
+							<option value="90000">Hasta $ 90.000</option>
+							<option value="100000">Hasta $ 100.000</option>
+							<option value="200000">Hasta $ 200.000</option>
+							<option value="300000">Hasta $ 300.000</option>
+							<option value="400000">Hasta $ 400.000</option>
+							<option value="500000">Hasta $ 500.000</option>
+							<option value="600000">Hasta $ 600.000</option>
+							<option value="700000">Hasta $ 700.000</option>
+							<option value="800000">Hasta $ 800.000</option>
+							<option value="900000">Hasta $ 900.000</option>
+							<option value="1000000">Hasta $ 1.000.000</option>
+							<option value="99999999">Más de $ 1.000.000</option>
+						</select>
+
+						<label for="frase">Código:</label>
+						<input type="text" name="frase" id="frase" maxlength="5" placeholder="abc12" />
+						<div class="clearfix"></div>
+
+						<div class="aligncenter">
+							<button class="boton-rojo" type="submit">
+								Buscar <span class="icono-search icono-left"></span>
+							</button>
+						</div>
+
+					</form>
+				</div>
+			</section>
+			<section class="sidebar--section sidebar--banner">
+				<article class="sidebar--section-contenido">
+					<figure>
+						<a class="fancybox" href="#reserva">
+							<img src="img/reservas.gif" alt="Reservas" />
+						</a>
+					</figure>
+					<div id="reserva" class="contenido">
+						<h3 class="heading">Instrucciones y pasos para reservar un alquiler temporario:</h3>
+						<ol>
+							<li>Ingrese a ALQUILERES TEMPORALES, las viviendas se encuentran identificadas por códigos (desde A001 al A090) y ordenadas de menor a mayor en las diferentes páginas, en cada opción encontrará fotos de la vivienda y la descripción de la misma.</li>
+							<li>Seleccione el código de la vivienda elegida.</li>
+							<li>Ingrese a la opción CONTACTO que figura en el lado izquierdo de la página.</li>
+							<li>Complete los requisitos solicitados y automáticamente los datos de su reserva nos llegan a nuestra casilla de correo.</li>
+							<li>Nos comunicaremos a la brevedad para responder a su solicitud.</li>
+						</ol>
+
+						<h3 class="heading">Reglas importantes:</h3>
+						<ul>
+							<li>Las viviendas no poseen ropa blanca, es decir sábanas y toallas. Deberán traerlas. En caso de necesitar servicio de ropa blanca nosotros también lo brindamos a un costo de $40 por juego. No olvide solicitarlo al momento de la reserva.</li>
+							<li>El precio que figura en la página se encuentra actualizado y es el PRECIO FINAL, en él se encuentra incluída la comisión inmobiliaria y los servicios; el ÚNICO gasto extra es $75 pesos de limpieza, por ÚNICA VEZ. Es para hacer limpiar la vivienda cuando se retire. Este monto es para las viviendas de más de 1 dormitorio y de $50 pesos para mono ambientes o viviendas de 1 dormitorio.</li>
+							<li>Cualquier duda que usted tenga nuestro teléfono de contacto es 03544-15628090 de lunes a viernes en el horario de 09:00 hs a 13:00hs y de 16:00hs a 20:00hs hasta el 31/12/2012. A partir del 01/01/2013 el horario se extiende de 09:00hs a 21:00hs de lunes a lunes.</li>
+						</ul>
+					</div>
+				</article>
+			</section>
+		</aside>
+		<div class="main">
+			<main>
+				<div class="breadcrum">
+					<ul class="breadcrums">
+						<li class="breadcrums--label">Ud. está aquí: </li>
+						<li class="breadcrums-inicio"><a href="index.html">Inicio</a></li>
+						<li class="breadcrums-muted">Servicios</li>
+					</ul>
+				</div>
+				<section>
+					<header class="heading">
+						<h1>Servicios</h1>
+					</header>
+					<article class="contenido">
+						<ul>
+							<li><a href="#h4-1">Buscamos por usted</a></li>
+							<li><a href="#h4-2">Alquilamos o Vendemos su propiedad</a></li>
+							<li><a href="#h4-3">¿Necesita una tasación?</a></li>
+							<li><a href="#h4-4">Haga Valer sus Derechos: Asesoramiento Jurídico</a></li>
+							<li><a href="#h4-5">Le facilitamos su Inversión: Gestión de proyecto</a></li>
+						</ul>
+						<h4 id="h4-1" class="heading">Buscamos por usted</h4>
+						<p>Ahorre tiempo y dinero. Deje que especialistas lo ayuden con su búsqueda. Hay muchas oportunidades de compra que quizá se esté perdiendo por no contar con la información precisa en el momento oportuno.</p>
+						<p>Usted solo debe informarnos sobre las cualidades que debe reunir la propiedad deseada y nosotros emprenderemos la búsqueda en nuestra base de datos y a través de un contacto directo y diario con el mercado inmobiliario de la zona. Si esa propiedad existe, tenga la seguridad que se la encontraremos.</p>
+						<p>Nuestro trabajo consiste en realizar una depuración seria y responsable, escogiendo y mostrándole únicamente aquellas propiedades que cumplan con los requisitos impuestos, desechando aquellas otras que no resulten interesantes para usted o que posean un riesgo asociado por no estar en condiciones de ser vendidas.</p>
+						<p>Luego de completar este formulario un Asesor de Ventas se contactará con Ud. para brindarle distintas alternativas según sus parámetros de búsqueda.</p>
+						<div class="formulario">
+							<form id="form2" name="form2" method="post" action="servicios.php">
+								<fieldset>
+									<legend>Tipo de Propiedad:</legend>
+									<div>
+										<label for="tip">Tipo de Propiedad:</label>
+										<select name="tip" id="tip">
+											<option value="" selected="selected">Seleccionar</option>
+											<option value="Alquileres Temporales">Alquileres Temporales</option>
+											<option value="Lotes y Terrenos">Lotes y Terrenos</option>
+											<option value="Campos y Chacras">Campos y Chacras</option>
+											<option value="Casas y departamentos">Casas y departamentos</option>
+											<option value="Negocios con Renta y Otros">Negocios con Renta y Otros</option>
+											<option value="Diversos">Diversos</option>
+										</select>
+									</div>
+									<div>
+										<label for="nom">Nombre:</label>
+										<input name="nom" id="nom" type="text" maxlength="40" required="required" />
+									</div>
+									<div>
+										<label for="ape">Apellido:</label>
+										<input name="ape" id="ape" type="text" maxlength="40" required="required" />
+									</div>
+									<div>
+										<label for="ema"> E-mail:</label>
+										<input name="ema" id="ema" type="email" maxlength="50" required="required" />
+									</div>
+									<div>
+										<label for="tel">Teléfono:</label>
+										<input name="tel" id="tel" type="tel" maxlength="10" required="required" />
+									</div>
+									<div>
+										<label for="car">Características del Inmueble:</label>
+										<input name="car" id="car" type="text" maxlength="50" required="required" />
+									</div>
+									<div>
+										<label for="loc">Localización Preferida:</label>
+										<input name="loc" id="loc" type="text" maxlength="40" />
+									</div>
+									<div>
+										<label for="otr">Otras Localizaciones Posibles:</label>
+										<input name="otr" id="otr" type="text" maxlength="40" />
+									</div>
+									<div>
+										<label for="sup">Superficie Aproximada (m2):</label>
+										<input name="sup" id="sup" min="0" type="number" maxlength="10" required="required" />
+									</div>
+									<div>
+										<label for="val">Valor Aproximado  en U$s/$:</label>
+										<input name="val" id="val" min="0" type="number" maxlength="15" required="required" />
+									</div>
+									<div>
+										<label for="fin">Fin Principal del Inmueble:</label>
+										<input name="fin" id="fin" type="text" maxlength="40" required="required" />
+									</div>
+									<div>
+										<label for="oii">Otra Información de Interés:</label>
+										<textarea name="oii" id="oii"></textarea>
+									</div>
+									<div>
+										<label for="captcha">Insertar código de la imagen: </label>
+										<span>
+											<img class="imagen-captcha" src="captcha.php"/>
+											<input placeholder="Código" type="text" class="captcha" id="captcha" name="codigo" required="required" maxlength="6" size="10" />
+										</span>
+									</div>
+									<div>
+										<button type="submit" name="Submit" id="Submit" class="boton-negro">Enviar</button>
+										<button type="reset" name="Submit2" id="Submit2" class="boton-rojo">Borrar</button>
+									</div>
+								</fieldset>
+							</form>
+							<div class="clearfix"></div>
+						</div>
+
+						<h4 id="h4-2" class="heading">Alquilamos o Vendemos su propiedad</h4>
+						<p>Somos un equipo de trabajo orientados a la acción, que estamos todo el día todos los días del año en permanente contacto con inversores que desean comprar distinto tipos de inmuebles. Nos comprometemos con nuestro trabajo y lo hacemos bien. Disponemos de una amplia base de datos con personas que quizá estén interesadas en comprar o alquilar su inmueble. Si usted nos va a elegir para vender o alquilar su propiedad, aquí le detallamos algunos puntos que entendemos le serán de utilidad.</p>
+						<h5>Venta</h5>
+						<p>A fin de aportar transparencia y celeridad a la venta de su propiedad, le solicitamos la firma de una autorización para ofrecer su finca a la venta, imprimiendo a la operatoria la seriedad que debe caracterizarla. En ella, quedarán explicitadas las condiciones comerciales que usted considere apropiadas para ofrecer a la venta su propiedad y nuestros honorarios, así como también, las circunstancias particulares de la operación (precio, plazo de escrituración, elementos incluídos o excluídos, etc.).</p>
+						<p>Una vez que contamos con los elementos necesarios para poder trabajar ( ficha de la propiedad y autorización de venta) promocionamos su propiedad por distintos medios y utilizamos nuestra red de relaciones a fin de aumentar las probabilidades de venta.</p>
+						<h5>Alquiler</h5>
+						<p>Para su seguridad, nuestra empresa verifica la existencia de gravámenes en las garantías ofrecidas y la libertad de obligarse del garante. Asimismo, para su mayor comodidad, le ofrecemos el servicio de administración de alquileres, a fin de que Ud. evite todo tipo de inconvenientes y pérdidas de tiempo.</p>
+
+						<h4 id="h4-3" class="heading">¿Necesita una tasación?</h4>
+						<p>Tasar es el acto de poner precio oficialmente a ciertas cosas vendibles. Es una tarea que requiere técnica, pericia, experiencia y criterio. Saber tasar no significa, como muchos creen, tener solo un amplio conocimiento de valores de mercado de una zona en particular, sino que requiere saber buscar, analizar y ponderar los antecedentes que finalmente conducirán al valor buscado. Una tasación precisa es un resguardo a su patrimonio y también proporciona elementos imprescindibles en el momento de cerrar una venta. Es un trabajo de profesionales y no de aficionados.</p>
+						<p>Para nuestra empresa tasar es una tarea profesional y de gran responsabilidad. Creemos que la mejor tasación no es la de mayor precio, sino la que logra un precio justo y de esa manera, mayores probabilidades de venta.</p>
+						<p>Si usted está interesado en que tasemos su propiedad, por favor no dude en contactarse con nosotros a fin de que acordemos una visita de tasación a su propiedad, si la misma se encuentra dentro de nuestra área geográfica de cobertura de este servicio.</p>
+
+						<h4 id="h4-4" class="heading">Haga Valer sus Derechos: Asesoramiento Jurídico</h4>
+						<p>Para su mayor tranquilidad, en nuestro equipo de trabajo contamos con un abogado especialista en Derecho Registral. A fin de que Ud. pueda descansar en especialistas, le brindamos soluciones jurídicas integrales sobre los temas que sean de su interés, entre los que se encuentran a modo de ejemplo:</p>
+						<ul>
+							<li>Redacción de contratos de compraventa, contratos de locaciones, etc.</li>
+							<li>Revisiones de contratos, vicios ocultos, vicios redhibitorios, etc.</li>
+							<li>Diligenciamiento de informes de dominio e inhibición.</li>
+							<li>Juicio Sucesorio.</li>
+							<li>Estudio privado de Títulos de propiedad.</li>
+							<li>Registro de posesión de propiedades rurales ( Pcia de Córdoba).</li>
+							<li>Juicio de Usucapión.</li>
+						</ul>
+
+						<h4 id="h4-5" class="heading">Le facilitamos su Inversión: Gestión de proyecto</h4>
+						<p>Si a Ud. le interesa montar un negocio pero no tiene el tiempo físico para administrar los mil detalles necesarios, nosotros gestionamos la puesta a punto por Usted. Esto le generará un importante ahorro de costos y la tranquilidad de contar con un seguimiento diario de su inversión, a cargo de un equipo de profesionales con una amplia red de relaciones en la provincia.</p>
+						<p>Nuestra forma de trabajo es a través de la formación de un equipo ad hoc, liderado por uno de los socios de la inmobiliaria y en la que pueden participar a tiempo parcial o full-time distintos profesionales en función de las necesidades de conocimientos y de tiempos requeridos para cumplir con los objetivos fijados conjuntamente con Ud.</p>
+
+						<h5>Las principales ventajas para Usted son:</h5>
+						<ul>
+							<li>Tranquilidad, al contar con un seguimiento diario de su inversión por parte de profesionales responsables y con vasta experiencia en la zona.</li>
+							<li>Ahorro de costos, principalmente como consecuencia de un eficiente control de los gastos y de la no contratación de personal en forma directa.</li>
+							<li>Eficiencia en las decisiones al contar con el gerenciamiento de gente que está en el negocio y que conoce la importancia de los detalles.</li>
+							<li>Simplicidad en el control y en el planeamiento, al tener solamente un interlocutor: Inmobiliaria Villa Brochero. Con solo una llamada telefónica tendrá un informe pormenorizado de la situación.</li>
+							<li>Seguridad en el cumplimiento de los plazos de ejecución, al trabajar con una red de relaciones dinámica construida a través de muchos años.</li>
+							<li>Respaldo al trabajar con Villa Brochero Servicios Inmobiliarios y su equipo de profesionales.</li>
+						</ul>
+					</article>
+				</section>
+			</main>
+		</div>
+	</div>
+
+	<footer class="footer gradient">
+		<div class="copyright">
+			<p>Av. Belgrano 877, Villa Cura Brochero - (CP: 5891 - Pcia. de Córdoba - Rep. Argentina. Tel: 03544 - 472538 / 03544 - 15628090</p>
+			<p>Horario de atención: lunes a viernes de 9 a 13 hs y de 16 a 20 hs sábados de 9 a 13 hs.</p>
+		</div>
+		<div class="redes_sociales">
+			<ul>
+				<li>
+					<a class="icono-google-plus2" href="#" title="Google+"></a>
+				</li>
+				<li>
+					<a class="icono-facebook2" href="#" title="Facebook"></a>
+				</li>
+				<li>
+					<a class="icono-twitter2" href="#" title="Twitter"></a>
+				</li>
+				<li>
+					<a class="icono-mail3" href="mailto:info@villabrochero.com.ar" title="E-Mail"></a>
+				</li>
+				<li>
+					<a class="icono-feed3" href="#" title="Feed"></a>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright">
+			<p>Desarrollado por: <a href="http://www.webmoderna.com.ar" target="_blank">WebModerna</a></p>
+		</div>
+		<a id="ir_arriba" class="gotop" href="#"></a>
+	</footer>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</div><!-- .wrapper -->
+</body>
+</html>

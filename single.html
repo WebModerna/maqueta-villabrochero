@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.5, user-scalable=yes" />
+	<meta name="description" content="Coaching empresarial" />
+	<title>Single | Inmobiliaria Villa Brochero</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/style.min.css" />
+
+	<!--[if IE 9]>
+		<script type="text/javascript" src="js/html5-3.6-respond-1.4.2.min.js"></script>
+		<link rel="stylesheet" href="css/styleIE9.css" />
+	<![endif]-->
+
+	<!--[if IE 8]>
+		<script type="text/javascript" src="js/html5-3.6-respond-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+		<link rel="stylesheet" href="css/styleIE8.css" />
+	<![endif]-->
+
+	<!--[if gte IE 9]><style type="text/css">.gradient { filter: none !important; }</style><![endif]-->
+</head>
+<body class="">
+<!--[if lt IE 8]>
+	<p class="browserupgrade">Estás usando un <strong>navegador viejo</strong>. Por favor <a target="_blank" href="http://browsehappy.com/">actualizá tu navegador</a> para mejorar tu experiencia en la web.</p>
+	<hr />
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="wrapper">
+	<header class="header">
+		<div class="logotipo gradient">
+			<h1 class="logotipo--header">
+				<a href="index.html">
+					<img src="img/logo_small2.png" alt="Inmobiliaria Villabrochero" >
+				</a>
+				<span>Inmobiliaria Villa Brochero</span>
+			</h1>
+		</div>
+
+		<div class="boton_menu">
+			<div class="menu_barritas">
+				<a href="#" id="menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+
+		<nav class="navegacion">
+			<ul id="header_nav" class="navegacion--listado navegacion--listado-cerrar">
+				<li class="current_menu_item current_page_item gradient"><a href="categoria.html">Alquileres Temporales</a></li>
+				<li class="gradient"><a href="categoria.html">Lotes y Terrenos</a></li>
+				<li class="gradient"><a href="categoria.html">Campos y Chacras</a></li>
+				<li class="gradient"><a href="categoria.html">Casas y Departamentos</a></li>
+				<li class="gradient"><a href="categoria.html">Negocios con Renta y Otros</a></li>
+				<li class="gradient"><a href="categoria.html">Diversos</a></li>
+			</ul>
+			<ul class="second_nav navegacion--listado navegacion--listado-cerrar">
+				<li class="gradient"><a href="empresa.html">Empresa</a></li>
+				<li class="gradient"><a href="servicios.html">Servicios</a></li>
+				<li class="gradient"><a href="ubicacion.html">Ubicación</a></li>
+				<li class="gradient"><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="sidebar--main">
+		<aside class="sidebar">
+			<section class="navegacion-secundaria">
+				<nav>
+					<button id="chusma" class="boton-rojo">
+						Buscar Propiedades <span class="icono-search icono-left"></span>
+					</button>
+					<ul class="second_nav">
+						<li class="gradient"><a href="empresa.html">Empresa</a></li>
+						<li class="gradient"><a href="servicios.html">Servicios</a></li>
+						<li class="gradient"><a href="ubicacion.html">Ubicación</a></li>
+						<li class="gradient"><a href="contacto.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</section>
+			<section class="sidebar--section formulario--propiedades">
+				<header class="sidebar--section-header">
+					<h3>Buscador</h3>
+				</header>
+				<div class="formulario--propiedades-form">
+					<form action="">
+						<label for="operacion">Operación:</label>
+						<select name="operacion" class="select" id="operacion">
+							<option value="" selected="selected">Seleccionar</option>
+							<option value="1">Compra</option>
+							<option value="3">Alquiler</option>
+						</select>
+
+						<label for="tipo">Propiedad:</label>
+						<select name="tipo" id="tipo">
+							<option value="" selected="selected">Seleccionar</option>
+							<option value="1">Alquileres Temporales</option>
+							<option value="2">Lotes y Terrenos</option>
+							<option value="3">Campos y Chacras</option>
+							<option value="4">Casas y departamentos</option>
+							<option value="5">Negocios con Renta y Otros</option>
+							<option value="6">Diversos</option>
+						</select>
+
+						<label for="localidad">Zona:</label>
+						<select name="localidad" id="localidad">
+							<option value="" selected="selected">Seleccionar</option>
+							<option value="Traslasierra">Traslasierra</option>
+							<option value="Otros">Otros</option>
+							<option value="Villa Cura  Brochero">Villa Cura  Brochero</option>
+							<option value="Mina Clavero">Mina Clavero</option>
+						</select>
+
+						<label for="preci">Precio:</label>
+						<select name="preci" id="preci">
+							<option value="" selected="selected">Seleccionar</option>
+							<option value="300">Menos de $ 300</option>
+							<option value="400">Hasta $ 400</option>
+							<option value="500">Hasta $ 500</option>
+							<option value="600">Hasta $ 600</option>
+							<option value="700">Hasta $ 700</option>
+							<option value="800">Hasta $ 800</option>
+							<option value="900">Hasta $ 900</option>
+							<option value="1000">Hasta $ 1.000</option>
+							<option value="2000">Hasta $ 2.000</option>
+							<option value="3000">Hasta $ 3.000</option>
+							<option value="4000">Hasta $ 4.000</option>
+							<option value="5000">Hasta $ 5.000</option>
+							<option value="6000">Hasta $ 6.000</option>
+							<option value="7000">Hasta $ 7.000</option>
+							<option value="8000">Hasta $ 8.000</option>
+							<option value="9000">Hasta $ 9.000</option>
+							<option value="10000">Hasta $ 10.000</option>
+							<option value="20000">Hasta $ 20.000</option>
+							<option value="30000">Hasta $ 30.000</option>
+							<option value="40000">Hasta $ 40.000</option>
+							<option value="50000">Hasta $ 50.000</option>
+							<option value="60000">Hasta $ 60.000</option>
+							<option value="70000">Hasta $ 70.000</option>
+							<option value="80000">Hasta $ 80.000</option>
+							<option value="90000">Hasta $ 90.000</option>
+							<option value="100000">Hasta $ 100.000</option>
+							<option value="200000">Hasta $ 200.000</option>
+							<option value="300000">Hasta $ 300.000</option>
+							<option value="400000">Hasta $ 400.000</option>
+							<option value="500000">Hasta $ 500.000</option>
+							<option value="600000">Hasta $ 600.000</option>
+							<option value="700000">Hasta $ 700.000</option>
+							<option value="800000">Hasta $ 800.000</option>
+							<option value="900000">Hasta $ 900.000</option>
+							<option value="1000000">Hasta $ 1.000.000</option>
+							<option value="99999999">Más de $ 1.000.000</option>
+						</select>
+
+						<label for="frase">Código:</label>
+						<input type="text" name="frase" id="frase" maxlength="5" placeholder="abc12" />
+						<div class="clearfix"></div>
+
+						<div class="aligncenter">
+							<button class="boton-rojo" type="submit">
+								Buscar<span class="icono-search icono-left"></span>
+						</div>
+
+					</form>
+				</div>
+			</section>
+			<section class="sidebar--section sidebar--banner">
+				<article class="sidebar--section-contenido">
+					<figure>
+						<a class="fancybox" href="#reserva">
+							<img src="img/reservas.gif" alt="Reservas" />
+						</a>
+					</figure>
+					<div id="reserva" class="contenido">
+						<h3 class="heading">Instrucciones y pasos para reservar un alquiler temporario:</h3>
+						<ol>
+							<li>Ingrese a ALQUILERES TEMPORALES, las viviendas se encuentran identificadas por códigos (desde A001 al A090) y ordenadas de menor a mayor en las diferentes páginas, en cada opción encontrará fotos de la vivienda y la descripción de la misma.</li>
+							<li>Seleccione el código de la vivienda elegida.</li>
+							<li>Ingrese a la opción CONTACTO que figura en el lado izquierdo de la página.</li>
+							<li>Complete los requisitos solicitados y automáticamente los datos de su reserva nos llegan a nuestra casilla de correo.</li>
+							<li>Nos comunicaremos a la brevedad para responder a su solicitud.</li>
+						</ol>
+
+						<h3 class="heading">Reglas importantes:</h3>
+						<ul>
+							<li>Las viviendas no poseen ropa blanca, es decir sábanas y toallas. Deberán traerlas. En caso de necesitar servicio de ropa blanca nosotros también lo brindamos a un costo de $40 por juego. No olvide solicitarlo al momento de la reserva.</li>
+							<li>El precio que figura en la página se encuentra actualizado y es el PRECIO FINAL, en él se encuentra incluída la comisión inmobiliaria y los servicios; el ÚNICO gasto extra es $75 pesos de limpieza, por ÚNICA VEZ. Es para hacer limpiar la vivienda cuando se retire. Este monto es para las viviendas de más de 1 dormitorio y de $50 pesos para mono ambientes o viviendas de 1 dormitorio.</li>
+							<li>Cualquier duda que usted tenga nuestro teléfono de contacto es 03544-15628090 de lunes a viernes en el horario de 09:00 hs a 13:00hs y de 16:00hs a 20:00hs hasta el 31/12/2012. A partir del 01/01/2013 el horario se extiende de 09:00hs a 21:00hs de lunes a lunes.</li>
+						</ul>
+					</div>
+				</article>
+			</section>
+		</aside>
+		<div class="main">
+			<main>
+			<div class="breadcrum">
+				<ul class="breadcrums">
+					<li class="breadcrums--label">Ud. está aquí: </li>
+					<li class="breadcrums-inicio"><a href="">Inicio</a></li>
+					<li><a href="">Medio</a></li>
+					<li><a href="">Final</a></li>
+					<li class="breadcrums-muted">Alquileres temporales</li>
+				</ul>
+					<!-- AddThis Button BEGIN
+					<a class="addthis_button alignright" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4c8ff9282b8657a0">
+						<img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0;width:auto;" />
+					</a>
+					<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4c8ff9282b8657a0"></script>
+					AddThis Button END -->
+				<div class="clearfix"></div>
+			</div>
+			<section class="productos">
+				<article class="productos--article">
+					<div class="productos--lista">
+						<figure class="productos--img movil">
+							<a data-fancybox-group="single" class="fancybox" href="img/1.jpg"><img src="img/1.jpg" alt="algo" /></a>
+							<figcaption class="mensajes">Vendida</figcaption>
+						</figure>
+						<ul>
+							<li><h4>Propiedad contratado a los locos</h4></li>
+							<li><span>Producto:</span> Alquiler Temporario</li>
+							<li><span>Código:</span> A342</li>
+							<li><span>Operación:</span> Compra</li>
+							<li><span>Precio:</span> $23.435.534,98</li>
+							<li><span>Comodidades:</span> Aire acondicionado y calefacción</li>
+							<li><span>Ubicación:</span> Villa Cura Brochero</li>
+							<li><span>Dirección:</span> Colón nº157; a 10 cuadras de la plaza central de Villa Cura Brochero, a 13 cuadras del centro de Mina Clavero y a 10 cuadras del Río Los Sauces.</li>
+							<li>
+								<span>Descripción: </span>
+								<p>La zona se caracteriza por ser tranquila, solo hay un complejo de departamentos al frente, el resto son viviendas de familias que están allí de forma permanente. A tan solo 100 metros hay una despensa donde puede conseguir todo lo que necesita. Excelente vista de las altas cumbres.</p>
+								<p>Comodidades: Al llegar al lugar nos encontramos con un amplio parque con un algarrobo de importante porte, el cual le brinda frescura e intimidad al lugar, donde se encuentran solo 2 departamentos.- Respecto a los departamentos se encuentran uno al lado del otro y las galerías están divididas con una pared, quedando totalmente individual el ingreso. Al entrar al departamento a la derecha encontramos el acceso al baño y a la izquierda las camas. Mientras que al frente está la mesa la derecha la cocina, la cual se encuentra totalmente equipada para 4 personas.</p>
+								<p>La vivienda posee DIRECTV, calefón a gas un ventilador de pie, mesa y sillas de patio. Es importante aclarar que al fondo viven los dueños (matrimonio mayor) los cuales solo están algunos días vacacionando igual que ustedes (no viven allí). Ellos están a su disposición al igual que la inmobiliaria para lo que necesiten y así pasar unas vacaciones inolvidables. Precio por día para 4 personas: Diciembre: $500.- Enero y Febrero: $640.- Marzo: $500.- Incluye comisión inmobiliaria y servicios, alquiler mínimo 7 días,</p>
+							</li>
+						</ul>
+					</div>
+					<div class="productos--img">
+						<div id="slide-1" class="cycle-slideshow"
+						data-cycle-speed="500"
+						data-cycle-auto-height="4:3"
+						data-cycle-slides="> a">
+							<a data-fancybox-group="single" class="fancybox" href="img/2.jpg"><img src="img/2.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single" class="fancybox" href="img/1.jpg"><img src="img/1.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single" class="fancybox" href="img/3.jpg"><img src="img/3.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single" class="fancybox" href="img/2.jpg"><img src="img/2.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single" class="fancybox" href="img/2.jpg"><img src="img/2.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single" class="fancybox" href="img/1.jpg"><img src="img/1.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single" class="fancybox" href="img/3.jpg"><img src="img/3.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single" class="fancybox" href="img/2.jpg"><img src="img/2.jpg" alt="propiedad" /></a>
+							<div class="mensajes">Vendido</div>
+						</div>
+						<div class="clearfix"></div>
+						<div id="slide-2" class="cycle-slideshow"
+						data-cycle-slides="> a"
+						data-cycle-fx="carousel"
+						data-cycle-timeout="4000"
+						data-cycle-speed="500"
+						data-cycle-swipe="true"
+						data-cycle-carousel-visible="5"
+						data-cycle-carousel-fluid="true"
+						data-allow-wrap="false">
+							<a data-fancybox-group="single2" class="fancybox" href="img/2.jpg"><img src="img/2.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single2" class="fancybox" href="img/1.jpg"><img src="img/1.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single2" class="fancybox" href="img/3.jpg"><img src="img/3.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single2" class="fancybox" href="img/2.jpg"><img src="img/2.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single2" class="fancybox" href="img/2.jpg"><img src="img/2.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single2" class="fancybox" href="img/1.jpg"><img src="img/1.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single2" class="fancybox" href="img/3.jpg"><img src="img/3.jpg" alt="propiedad" /></a>
+							<a data-fancybox-group="single2" class="fancybox" href="img/2.jpg"><img src="img/2.jpg" alt="propiedad" /></a>
+						</div>
+
+						<label id="label-check" for="check" class="boton small">
+							Consulte Esta Propiedad
+						</label>
+						<input type="checkbox" id="check" name="check" />
+						<div class="formulario--producto">
+							<form id="form2" name="form2" method="post" action="servicios.php">
+								<fieldset>
+									<legend>Complete el formulario</legend>
+									<div>
+										<label for="nomape">Nombre y Apellido:</label>
+										<input name="nomape" id="nomape" type="text" maxlength="40" required="required" placeholder="Ignacio Copany" />
+									</div>
+									<div>
+										<label for="ema">Correo Electrónico:</label>
+										<input name="ema" id="ema" type="email" maxlength="50" required="required" placeholder="ignaciocopany@favalloro.com.ar" />
+									</div>
+									<div>
+										<label for="tel">Teléfono:</label>
+										<input name="tel" id="tel" type="tel" maxlength="10" required="required" placeholder="0351-4882213" />
+									</div>
+									<div>
+										<label for="oii">Mensaje:</label>
+										<textarea name="oii" id="oii" placeholder="Escribir aquí" ></textarea>
+									</div>
+									<div>
+										<label for="captcha">Insertar el código de la imagen: </label>
+										<span>
+											<img class="imagen-captcha" src="captcha.php"/>
+											<input placeholder="Código" type="text" class="captcha" id="captcha" name="codigo" required="required" maxlength="6" size="10" />
+										</span>
+									</div>
+									<div>
+										<button type="submit" name="Submit" id="Submit" class="boton-negro small">Enviar</button>
+										<button type="reset" name="Submit2" id="Submit2" class="boton-rojo small">Borrar</button>
+									</div>
+								</fieldset>
+							</form>
+							<div class="clearfix"></div>
+						</div>
+
+						<div class="reservas"></div>
+						<div id="map"></div>
+						<div class="datepicker">
+							<h4>Días Reservados</h4>
+						</div>
+					</div>
+				</article>
+			</section>
+			<!-- Post navigation, o sea la paginación -->
+			<section>
+				<div class="enlaces__navegacion">
+					<div class="prev">
+						<a title="Anterior" class="enlaces__navegacion--prev" href="#" rel="prev">Producto anterior</a>
+					</div>
+					<div class="next">
+						<a title="Siguiente" class="enlaces__navegacion--next" href="#" rel="next">Producto siguiente</a>
+					</div>
+				</div>
+			</section>
+			</main>
+		</div>
+	</div>
+
+	<footer class="footer gradient">
+		<div class="copyright">
+			<p>Av. Belgrano 877, Villa Cura Brochero - (CP: 5891 - Pcia. de Córdoba - Rep. Argentina. Tel: 03544 - 472538 / 03544 - 15628090</p>
+			<p>Horario de atención: lunes a viernes de 9 a 13 hs y de 16 a 20 hs sábados de 9 a 13 hs.</p>
+		</div>
+		<div class="redes_sociales">
+			<ul>
+				<li>
+					<a class="icono-google-plus2" href="#" title="Google+"></a>
+				</li>
+				<li>
+					<a class="icono-facebook2" href="#" title="Facebook"></a>
+				</li>
+				<li>
+					<a class="icono-twitter2" href="#" title="Twitter"></a>
+				</li>
+				<li>
+					<a class="icono-mail3" href="mailto:info@villabrochero.com.ar" title="E-Mail"></a>
+				</li>
+				<li>
+					<a class="icono-feed3" href="#" title="Feed"></a>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright">
+			<p>Desarrollado por: <a href="http://www.webmoderna.com.ar" target="_blank">WebModerna</a></p>
+		</div>
+		<a id="ir_arriba" class="gotop" href="#"></a>
+	</footer>
+
+	<!--<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&;amp;language=es"></script>-->
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/datepicker.js"></script>
+	<script type="text/javascript">
+	(function()
+	{
+		// Deshabilitador de fechas del almanaque
+		$(document).on("ready", fechador);
+		function fechador()
+		{
+			// Días deshabilitados guardados en la base de datos
+			var DiasDeshabilitados = ["16-03-2016", "17-03-2016", "18-03-2016", "06-03-2016", "19-03-2016", "29-03-2016",];
+			$(function()
+			{
+				$('.datepicker').datepicker({
+					beforeShowDay : function(date)
+					{
+						var string = jQuery.datepicker.formatDate('dd-mm-yy', date);
+						return [ $.inArray(string, DiasDeshabilitados) == -1 ];
+					}
+				});
+			});
+		}
+	}());
+
+
+
+	jQuery(document).ready(function($){
+
+var slideshows = $('.cycle-slideshow').on('cycle-next cycle-prev', function(e, opts) {
+    // advance the other slideshow
+    slideshows.not(this).cycle('goto', opts.currSlide);
+});
+
+$('#slide-2').click(function(){
+    var index = $('#slide-2').data('cycle.API').getSlideIndex(this);
+    slideshows.cycle('goto', index);
+});
+
+});
+	</script>
+</div><!-- .wrapper -->
+</body>
+</html>
