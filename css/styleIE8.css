@@ -1,4 +1,4 @@
-/* Barra de navegación
+/* Barra de navegación */
 .navegacion--listado li,
 .navegacion--listado li a
 {
@@ -22,7 +22,6 @@
 		font-size: 0.9em;
 	}
 }
-*/
 
 /* Tablas */
 table tbody tr.nth-child-odd
